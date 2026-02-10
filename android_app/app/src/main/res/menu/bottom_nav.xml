@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_connect" android:icon="@drawable/ic_nav_connect" android:title="@string/tab_connect" />
+    <item android:id="@+id/nav_mouse" android:icon="@drawable/ic_nav_mouse" android:title="@string/tab_mouse" />
+    <item android:id="@+id/nav_keyboard" android:icon="@drawable/ic_nav_keyboard" android:title="@string/tab_keyboard" />
+    <item android:id="@+id/nav_more" android:icon="@drawable/ic_nav_more" android:title="@string/tab_more" />
+</menu>

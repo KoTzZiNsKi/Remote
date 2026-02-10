@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Remote Mouse</string>
+    <string name="back">Назад</string>
+    <string name="connect">Подключить</string>
+    <string name="disconnect">Отключить</string>
+    <string name="connected">Подключено</string>
+    <string name="disconnected">Не подключен</string>
+    <string name="choose_computer">Выбор компьютера</string>
+    <string name="select_computer">Выберите компьютер</string>
+    <string name="faq_check">Проверка часто задаваемых вопросов</string>
+    <string name="connect_by_ip">Подключение по IP</string>
+    <string name="history">История</string>
+    <string name="expand">Развернуть</string>
+    <string name="scan_qr">Сканировать QR</string>
+    <string name="scan_qr_code">Сканировать QR-код</string>
+    <string name="hint_ip_enter">IP: порт (например 192.168.1.1:1978)</string>
+    <string name="hint_password">Пароль</string>
+    <string name="connect_ip_instructions">Введите IP и порт компьютера (по умолчанию 1978).</string>
+    <string name="computer_not_found">Компьютер не найден</string>
+    <string name="connect_instructions_1">Установите и запустите приложение Remote Mouse на компьютере.</string>
+    <string name="connect_instructions_2">Подключите компьютер и телефон к одной Wi‑Fi сети или включите Bluetooth.</string>
+    <string name="connect_instructions_3">Откройте приложение на ПК и нажмите «Показать QR» или введите IP вручную.</string>
+    <string name="how_to_start">Как начать</string>
+    <string name="tab_connect">Подключение</string>
+    <string name="tab_mouse">Мышь</string>
+    <string name="tab_keyboard">Клавиатура</string>
+    <string name="tab_more">Ещё</string>
+    <string name="ok_got_it">Ладно, я понял</string>
+    <string name="send_download_link">Отправить мне ссылку для скачивания</string>
+    <string name="error_connect_failed">Не удалось подключиться. Проверьте IP и порт %d.</string>
+    <string name="error_no_route_hint">Убедитесь, что телефон и ПК в одной Wi‑Fi сети, ПК включён и IP указан верно.</string>
+    <string name="github_repo_url">https://github.com/kotzzinski/remotemouse</string>
+</resources>

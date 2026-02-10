@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF0B0B0F</color>
+    <color name="grey_panel">#E6181822</color>
+    <color name="grey_surface">#E6252530</color>
+    <color name="accent">#FF5B7FFF</color>
+    <color name="accent_soft">#4D5B7FFF</color>
+    <color name="accent_pressed">#FF4A6AE6</color>
+    <color name="accent_modifier_pressed">#FF2A2A2A</color>
+    <color name="accent_modifier_glow">#FF404040</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="glass">#1AFFFFFF</color>
+    <color name="glass_border">#20FFFFFF</color>
+    <color name="glass_panel">#CC181822</color>
+    <color name="status_connected">#FF4ADE80</color>
+    <color name="status_disconnected">#88FFFFFF</color>
+    <color name="accent_green">#FF4ADE80</color>
+    <color name="separator">#20FFFFFF</color>
+</resources>

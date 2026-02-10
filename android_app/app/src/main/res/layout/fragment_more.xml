@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Питание"
+            android:textColor="#88FFFFFF"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/btn_lock"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="Блокировка" />
+
+            <Button
+                android:id="@+id/btn_sleep"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:text="Сон" />
+
+            <Button
+                android:id="@+id/btn_logout"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="Выход" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/btn_reboot"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="Перезагрузка" />
+
+            <Button
+                android:id="@+id/btn_shutdown"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="Выключение" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Громкость"
+            android:textColor="#88FFFFFF"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/btn_vol_down"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="−" />
+
+            <Button
+                android:id="@+id/btn_vol_mute"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Mute" />
+
+            <Button
+                android:id="@+id/btn_vol_up"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="+" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Скорость указателя"
+            android:textColor="#88FFFFFF"
+            android:textSize="12sp" />
+
+        <SeekBar
+            android:id="@+id/pointer_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:max="300"
+            android:progress="100" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Буфер обмена"
+            android:textColor="#88FFFFFF"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/clipboard_text"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_glass_edit"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:textColorHint="#88FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/btn_clipboard_get"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="Получить" />
+
+            <Button
+                android:id="@+id/btn_clipboard_send"
+                style="@style/Widget.RemoteMouse.Button.Glass.Compact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="Отправить" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
