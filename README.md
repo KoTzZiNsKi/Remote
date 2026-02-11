@@ -12,3 +12,5 @@
 ## Документация и FAQ
 
 Описание возможностей и ответы на частые вопросы — в [pc_csharp/README.md](pc_csharp/README.md).
+
+Баги-лаги - https://t.me/kotzz (@kotzz)
